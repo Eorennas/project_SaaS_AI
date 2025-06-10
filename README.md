@@ -53,11 +53,12 @@ Este projeto é um aplicativo web que permite ao usuário:
 5. **Execute o aplicativo**
     ```bash
     streamlit run main.py
-
-
+---
+---
 ## 📁 Estrutura de Pastas
 
 project_SaaS_AI/
 ├── LICENSE                  # licença MIT
 ├── main.py                  # código principal Streamlit
 └── requirements.txt         # dependências Python
+---
