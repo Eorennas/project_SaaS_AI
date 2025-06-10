@@ -56,7 +56,8 @@ Este projeto é um aplicativo web que permite ao usuário:
 ---
 ## 📁 Estrutura de Pastas
 
-project_SaaS_AI/
+- project_SaaS_AI/
+    ```bash
     ├── LICENSE                  # licença MIT
     ├── main.py                  # código principal Streamlit
     └── requirements.txt         # dependências Python
