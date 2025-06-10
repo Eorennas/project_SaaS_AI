@@ -39,18 +39,22 @@ Este projeto é um aplicativo web que permite ao usuário:
    git clone https://github.com/seu_usuario/project_SaaS_AI.git
    cd project_SaaS_AI
 2. **Crie e ative um virtualenv**  
+    ```bash
     python3 -m venv .venv
     source .venv/bin/activate       # Linux / macOS
     .venv\Scripts\activate          # Windows
 3. **Instale as dependências**  
+    ```bash
     pip install --upgrade pip
     pip install -r requirements.txt
 4. **Defina sua API Key**  
+    ```bash
     api_key = "SUA_GOOGLE_GENAI_API_KEY"
 5. **Execute o aplicativo**
+    ```bash
     streamlit run main.py
 
-    
+
 ## 📁 Estrutura de Pastas
 
 project_SaaS_AI/
