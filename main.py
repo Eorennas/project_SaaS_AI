@@ -4,8 +4,8 @@ from google.genai import types
 from PIL import Image
 from io import BytesIO
 
-#api_key = st.secrets("API_KEY")
-client = genai.Client(api_key="AIzaSyCiGZy3IrHb0rJyBAM6JVfAyiCTrOwsguI ")
+api_key = st.secrets("API_KEY")
+client = genai.Client(api_key=api_key)
 
 st.title("🔮 Gerador de Imagens com Gemini SaaS")
 
